@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Helvetica Neue Heavy';
+    src: url('../asset/fonts/HelveticaNeue-Heavy.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Helvetica Neue Ultra Thin';
+    src: url('../asset/fonts/HelveticaNeueUltraLight.ttf') format('opentype');
+}
+
+/* Universal */
+body  {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    background: transparent;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+header img#header {
+    width: 100%;
+}
+header img#logo {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 4%;
+}
+
+/* Main */
+main {
+    width: 100%;
+    position: relative;
+    margin-top: -5px;
+    background-color: #FF9600;
+}
+main h1 {
+    position: absolute;
+    z-index: 5;
+    left: 25%;
+
+    font-size: 6vw;
+    color: #FFF;
+    /* letter-spacing: 70%; */
+
+    font-family: 'Helvetica Neue Heavy';
+}
+main h1 small {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    bottom: -30%;
+
+    font-size: 40%;
+    font-family: 'Helvetica Neue Ultra Thin';
+    color: #FF9600;
+}
+main div#marker {
+    position: absolute;
+    z-index: 5;
+    left: 5%;
+    top: -25%;
+
+    height: 100%;
+    border-right: 0.15rem solid #CCC;
+}
+main div#marker div#inner-marker {
+    width: 8px;
+    height: 8px;
+    background-color: #555;
+
+    position: absolute;
+    right: -6px;
+    top: 0%;
+
+    border-radius: 50%;
+}
+main div#marker div.piece:nth-of-type(1) {
+    top: 0%;
+    background-color: #CCC;
+}
+main h1 div#divide {
+    position: absolute;
+    right: -8%;
+    height: 243.5%;
+    border-right: 1px solid #FF9600;
+}
+main p#percent {
+    position: absolute;
+    z-index: 5;
+    left: 67%;
+    bottom: -25%;
+
+    border: 1px solid #FF9600;
+    border-radius: 50%;
+    padding: 1.25%;
+
+    font-size: calc(6vw * 0.4);
+    font-family: 'Helvetica Neue Ultra Thin';
+    font-weight: 700;
+    /* letter-spacing: 0.1rem; */
+    color: #FF9600;
+}
+main img#hopAndBarley {
+    max-width: 50%;
+    position: relative;
+    top: -60%;
+    left: 40%;
+}
+main img#ale {
+    max-width: 21.75%;
+    position: absolute;
+    top: -50%;
+    right: 5%;
+}
+
+/* About */
+section#about {
+    position: relative;
+    /* min-height: 200px; */
+    margin: 15% 0 10% 0;
+}
+#about h1 {
+    margin-left: 10%;
+
+    font-family: 'Helvetica Neue Heavy';
+    font-size: 10vw;
+    color: #3F4C65;
+    opacity: 0.1;
+}
+#about p {
+    /* background-color: #000; */
+
+    width: 58%;
+    margin: 0 auto;
+    margin-top: -14%;
+    padding-left: 8%;
+
+    overflow-wrap: break-word;
+
+    font-family: 'Helvetica Neue Ultra Thin';
+    font-weight: 700;
+    font-size: 2.25vw;
+    color: #3F4C65;
+}
+#about button {
+    background-color: #3F4C65;
+    color: #FFF;
+    border: none;
+
+    float: right;
+    margin-right: 19.5%;
+    margin-top: 2.5%;
+    padding: 0.45%;
+    padding-right: 1.5%;
+    padding-left: 20%;
+
+    font-family: 'Helvetica Neue Ultra Thin';
+    font-weight: 700;
+    font-size: 2.25vw;
+    letter-spacing: 0.2vw;
+}
+
+/* Process */
+#process {
+    position: relative;
+}
+#process h1 {
+    position: absolute;
+    right: 2.5%;
+    bottom: 2.5%;
+    z-index: 5;
+
+    line-height: 90%;
+
+    font-family: 'Helvetica Neue Heavy';
+    font-size: 10vw;
+    color: #FFF;
+    opacity: 0.4;
+}
+#process div {
+    position: absolute;
+    right: 7.5%;
+    top: 75%;
+    z-index: 3;
+
+    width: 60%;
+    background-color: #3F4C65;
+    color: #FFF;
+}
+#process div p {
+    padding: 8%;
+
+    font-family: 'Helvetica Neue Ultra Thin';
+    font-weight: 0;
+    font-size: 2.25vw;
+}
+#process img {
+    max-width: 100%;
+}
