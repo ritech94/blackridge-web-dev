@@ -3,8 +3,16 @@
     src: url('../asset/fonts/HelveticaNeue-Heavy.otf') format('opentype');
 }
 @font-face {
+    font-family: 'Helvetica';
+    src: url('../asset/fonts/Helvetica.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'Helvetica 45 Light';
+    src: url('../asset/fonts/HelveticaNeue-Light.otf');
+}
+@font-face {
     font-family: 'Helvetica Neue Ultra Thin';
-    src: url('../asset/fonts/HelveticaNeueUltraLight.ttf') format('opentype');
+    src: url('../asset/fonts/HelveticaNeueUltraLight.ttf');
 }
 
 /* Universal */
@@ -137,16 +145,16 @@ section#about {
 #about p {
     /* background-color: #000; */
 
-    width: 58%;
+    width: 54%;
     margin: 0 auto;
     margin-top: -14%;
-    padding-left: 8%;
+    padding-left: 7%;
 
     overflow-wrap: break-word;
 
-    font-family: 'Helvetica Neue Ultra Thin';
-    font-weight: 700;
-    font-size: 2.25vw;
+    font-family: 'Helvetica 45 Light';
+    /* font-weight: 700; */
+    font-size: 2.4vw;
     color: #3F4C65;
 }
 #about button {
@@ -157,13 +165,13 @@ section#about {
     float: right;
     margin-right: 19.5%;
     margin-top: 2.5%;
-    padding: 0.45%;
+    padding: 0.2%;
     padding-right: 1.5%;
-    padding-left: 20%;
+    padding-left: 17.25%;
 
-    font-family: 'Helvetica Neue Ultra Thin';
-    font-weight: 700;
-    font-size: 2.25vw;
+    font-family: 'Helvetica 45 Light';
+    /* font-weight: 700; */
+    font-size: 2.4vw;
     letter-spacing: 0.2vw;
 }
 
@@ -186,20 +194,22 @@ section#about {
 }
 #process div {
     position: absolute;
-    right: 7.5%;
+    right: 6.75%;
     top: 75%;
     z-index: 3;
 
-    width: 60%;
+    width: 59%;
     background-color: #3F4C65;
     color: #FFF;
 }
 #process div p {
     padding: 8%;
+    padding-bottom: 2%;
+    padding-right: 9%;
 
-    font-family: 'Helvetica Neue Ultra Thin';
-    font-weight: 0;
-    font-size: 2.25vw;
+    font-family: 'Helvetica 45 Light';
+    /* font-weight: 0; */
+    font-size: 2.4vw;
 }
 #process img {
     max-width: 100%;

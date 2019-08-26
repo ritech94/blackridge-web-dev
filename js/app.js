@@ -45,6 +45,7 @@ function alterNavMarker() {
 
     $('#marker').css('position', 'fixed');
     $('#marker').css('top', '25%');
+    // getDivTop(main) - ($('main').height() / 4)
     $('#marker').height($('main').height());
 }
 
